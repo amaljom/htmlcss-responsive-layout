@@ -8,20 +8,13 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
 }
-
+/*********
+   header
+**********/
 .background-color{
     width: 100%;
     background-color: rgb(126, 126, 223);
 }
-p{
-    padding: 30px 0px;
-}
-.icon{
-    text-align: center;
-    font-size: 90px;
-    color: #5e6aff;
-}
-
 .top-bar{
     width: 425px;
     display: flex;
@@ -30,6 +23,17 @@ p{
     align-items: center;
     margin: 0 auto;
 }
+
+p{
+    padding: 30px 0px;
+}
+
+.icon{
+    text-align: center;
+    font-size: 90px;
+    color: #5e6aff;
+}
+
 .prime-card-main a{
     color: #fff;
     text-align: center;
@@ -52,7 +56,7 @@ p{
     margin-top: 40px;
     border-radius: 37px;
     padding-top: 75px;
-    padding: 20px 46px;
+    padding: 20px 30px;
     text-align: center;
 }
 .img1{
@@ -63,7 +67,47 @@ p{
 }
 
 .first-section{
-    width: 380px;
+    width: 365px;
     margin: 0 auto;
     margin-top: 60px;
+    padding-bottom: 40px;
+}
+.background-color-2{
+    width: 100%;
+    background-color: rgb(149 147 230);
+}
+.img2{
+    width: 380px;
+}
+.div-1{
+    padding-top: 100px;
+}
+.colore-testo{
+    color: white;
+}
+.background-bianco{
+    background-color: #fff;
+    border-radius: 45px;
+    text-align: center;
+    padding: 42px 19px;
+}
+.arrow{
+    padding: 20px;
+    background-color: rgb(126, 126, 223);
+    border-radius: 30px;
+}
+
+/* testimonial */
+.immagine-border-radius{
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+}
+.testi{
+    text-align: center;
+}
+.testimonial{
+    color: #fff;
+    background-color: rgb(149 147 230);
 }
