@@ -68,7 +68,12 @@ p{
     background-color: rgb(198, 198, 248);
     border-radius: 37px;
     padding-top: 75px;
-    padding: 69px 31px;
+    padding: 0px 31px;
+    padding-top: 40px;
+}
+.gestione-img{
+    padding-top: 40px;
+    align-self: flex-end;
 }
 .prime-card-main-2{
     width: 100%;
@@ -82,9 +87,10 @@ p{
 .img1{
     width: 300px;
     position: relative;
-    bottom: -74px;
-    left: 11px;
-}
+    top: 5px;
+    
+} 
+
 .colore-h2{
     color: #5e6aff;
     font-size: 30px;
@@ -278,15 +284,15 @@ h3{
         justify-content: space-around;
     }
     .prime-card-main{
-        width: 66%;
+        width: 64%;
         background-color: rgb(198, 198, 248);
         margin-top: 40px;
         border-radius: 37px;
         padding-top: 75px;
-        padding: 69px 31px;
+        padding: 0px 31px;
     }
     .prime-card-main-2{
-        width: 32%;
+        width: 31%;
         background-color: rgb(198, 198, 248);
         margin-top: 40px;
         border-radius: 37px;
@@ -394,5 +400,11 @@ h3{
     }
     .about{
         width: 80%;
+    }
+}
+@media screen and (min-width: 1516px){
+    .quote {
+        bottom: 163px;
+        left: -70px;
     }
 }
