@@ -14,6 +14,8 @@ body{
 .background-color{
     width: 100%;
     background-color: rgb(126, 126, 223);
+    position: fixed;
+    z-index: 1;
 }
 .top-bar{
     width: 425px;
@@ -22,8 +24,26 @@ body{
     padding: 18px 30px;
     align-items: center;
     margin: 0 auto;
+    color: #fff;
 }
-
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding-right: 10px;
+    display: none;
+    align-self: center;
+}
+.bottone-3{
+    padding: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+}
+.panino{
+    display: inline;
+}
 p{
     padding: 30px 0px;
     line-height: 30px;
@@ -46,7 +66,6 @@ p{
 .prime-card-main{
     width: 100%;
     background-color: rgb(198, 198, 248);
-    margin-top: 40px;
     border-radius: 37px;
     padding-top: 75px;
     padding: 69px 31px;
@@ -66,12 +85,19 @@ p{
     bottom: -74px;
     left: 11px;
 }
-
+.colore-h2{
+    color: #5e6aff;
+    font-size: 30px;
+}
+.colore-h2-2{
+    color: #9593e6;
+    font-size: 35px;
+}
 .first-section{
     width: 365px;
     margin: 0 auto;
-    margin-top: 60px;
     padding-bottom: 40px;
+    padding-top: 130px;
 }
 .background-color-2{
     width: 100%;
@@ -84,6 +110,9 @@ p{
     padding-bottom: 40px;
 }
 .img2{
+    width: 380px;
+}
+.img3{
     width: 380px;
 }
 .div-1{
@@ -159,12 +188,23 @@ p{
 }
 .numeri{
     font-size: 40px;
+    color: #9593e6;
 }
 .bottone{
     padding: 10px;
     background-color: #9593e6;
     border-radius: 20px;
     text-decoration: none;
+    color: white;
+}
+h3{
+    color: #9593e6;
+}
+.elenco h2{
+    color: #fff;
+}
+.numeri i{
+    padding-right: 5px;
 }
 /* about us */
 .about{
@@ -182,8 +222,43 @@ p{
     position: relative;
     right: 65px;
     bottom: 150px;
+    color: #9593e6;
 }
 
+/* GET STRTED */
+.ultimo-div{
+    width: 100%;
+    background-color: #9593e6;
+}
+.started{
+    width: 370px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
+    color: #fff;
+}
+.bottone-2{
+    padding: 20px 75px;
+    background-color: #fff;
+    color: #9593e6;
+    border-radius: 37px;
+    text-decoration: none;
+}
+.free{
+    font-size: 53px;
+    color: #ffb836;
+}
+ footer{
+     background-color: rgb(53, 49, 49);
+     color: white;
+ }
+.foot{
+    text-align: center;
+    width: 370px;
+    margin: 0 auto;
+    padding-top: 40px;
+
+}
 /* TABLET */
 @media screen and (min-width: 768px){
     .top-bar{
@@ -197,14 +272,13 @@ p{
     .first-section{
         width: 95%;
         margin: 0 auto;
-        margin-top: 60px;
         padding-bottom: 40px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
     .prime-card-main{
-        width: 68%;
+        width: 66%;
         background-color: rgb(198, 198, 248);
         margin-top: 40px;
         border-radius: 37px;
@@ -212,7 +286,7 @@ p{
         padding: 69px 31px;
     }
     .prime-card-main-2{
-        width: 29%;
+        width: 32%;
         background-color: rgb(198, 198, 248);
         margin-top: 40px;
         border-radius: 37px;
@@ -260,5 +334,65 @@ p{
     .quote{
         bottom: 240px;
         left: 154px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .top-bar{
+        width: 80%; 
+    }
+    ul li{
+        display: inline;
+    }
+    .panino{
+        display: none;
+    }
+    .first-section{
+        width: 81%;
+    }
+    .prime-card-main a{
+        padding: 12px 29px;
+    }
+    .prime-card-main{
+        padding-top: 25px;
+        display: flex;
+    }
+    .prime-card-main-2{
+        width: 31%;
+    }
+    .second-section{
+        width: 69%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .img2{
+        width: 410px;
+        padding: 97px 0px;
+    }
+    .img3{
+        width: 250px;
+    }
+    .div-1{
+        width: 48%;
+    }
+    .background-bianco{
+        background-color: #fff;
+        border-radius: 45px;
+        text-align: center;
+        padding: 10px 21px;
+        align-self: self-end;
+        width: 38%;
+    }
+    .third-section{
+        width: 80%;
+    }
+    .elenco{
+        width: 80%;
+    }
+    .benefits{
+        width: 32%;
+    }
+    .about{
+        width: 80%;
     }
 }
