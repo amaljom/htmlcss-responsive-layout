@@ -74,6 +74,7 @@ p{
 .gestione-img{
     padding-top: 40px;
     align-self: flex-end;
+    line-height: 0;
 }
 .prime-card-main-2{
     width: 100%;
@@ -86,9 +87,6 @@ p{
 }
 .img1{
     width: 300px;
-    position: relative;
-    top: 5px;
-    
 } 
 
 .colore-h2{
